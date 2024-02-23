@@ -4,5 +4,5 @@
     "slug": "collabora",
     "source": "github",
     "upstream_repo": "collabora/code",
-    "upstream_version": "latest"
+    "upstream_version": "23.05.5.4"
 }
