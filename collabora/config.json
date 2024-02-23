@@ -21,5 +21,14 @@
     "ports": {
         "9980/tcp": 9980
     },
+    "options": {
+        "username": "admin",
+        "password": "collabora",
+        "DONT_GEN_SSL_CERT": "",
+        "cert_domain": "",
+        "server_name": "",
+        "dictionaries": "",
+        "extra_params": ""
+    },
     "startup": "before"
 }
