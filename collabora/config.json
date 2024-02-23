@@ -1,0 +1,21 @@
+{
+    "name": "Collabora Online",
+    "version": "1.0.0",
+    "slug": "collabora",
+    "description": "Collabora Online Server Addon for Home Assistant and Nextcloud",
+    "arch": [
+        "aarch64",
+        "amd64"
+    ],
+    "image": "collabora/code",
+    "homeassistant": {
+        "addon_name": "collabora",
+        "panel_icon": "mdi:file-document-edit",
+        "docker_repository": "a0zzy/collabora-addon",
+        "docker_tag": "latest"
+    },
+    "ports": {
+        "9980/tcp": 9980
+    },
+    "startup": "before"
+}
