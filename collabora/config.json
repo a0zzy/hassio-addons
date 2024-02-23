@@ -7,12 +7,16 @@
         "aarch64",
         "amd64"
     ],
-    "image": "collabora/code",
+    "hassio_api": true,
+    "image": "a0zzy/collabora-addon",
     "homeassistant": {
         "addon_name": "collabora",
         "panel_icon": "mdi:file-document-edit",
         "docker_repository": "a0zzy/collabora-addon",
         "docker_tag": "latest"
+    },
+    "ports_description": {
+        "9980/tcp": "CODE Server Access"
     },
     "ports": {
         "9980/tcp": 9980
