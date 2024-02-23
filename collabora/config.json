@@ -8,7 +8,7 @@
         "amd64"
     ],
     "hassio_api": true,
-    "image": "a0zzy/collabora-addon:latest",
+    "image": "a0zzy/collabora-addon",
     "homeassistant": {
         "addon_name": "collabora",
         "panel_icon": "mdi:file-document-edit",
