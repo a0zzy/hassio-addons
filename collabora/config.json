@@ -1,6 +1,6 @@
 {
     "name": "Collabora Online",
-    "version": "1.0.0",
+    "version": "latest",
     "slug": "collabora",
     "description": "Collabora Online Server Addon for Home Assistant and Nextcloud",
     "arch": [
@@ -8,7 +8,7 @@
         "amd64"
     ],
     "hassio_api": true,
-    "image": "a0zzy/collabora-addon",
+    "image": "a0zzy/collabora-addon-{arch}",
     "homeassistant": {
         "addon_name": "collabora",
         "panel_icon": "mdi:file-document-edit",

@@ -1,0 +1,9 @@
+{
+    "build_from": {
+        "aarch64": "lscr.io/collabora/code:arm64v8-",
+        "amd64": "lscr.io/collabora/code:amd64-"
+    },
+    "codenotary": {
+        "signer": "a620zzy@gmail.com"
+    }
+}
